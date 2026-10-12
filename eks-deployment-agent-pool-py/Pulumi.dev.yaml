@@ -1,0 +1,2 @@
+environment:
+  - shared-infra/k8s-cluster

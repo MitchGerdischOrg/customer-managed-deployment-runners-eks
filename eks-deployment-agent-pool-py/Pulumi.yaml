@@ -1,0 +1,11 @@
+name: eks-deployment-agent-pool-py
+description: 'Python: customer managed deployment agent pool on the shared EKS cluster'
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-python
